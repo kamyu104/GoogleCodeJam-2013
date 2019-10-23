@@ -1,4 +1,4 @@
-# [GoogleCodeJam 2013](https://codejam.withgoogle.com/2013/challenges) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) ![Progress](https://img.shields.io/badge/progress-1%20%2F%2026-ff69b4.svg)
+# [GoogleCodeJam 2013](https://codingcompetitions.withgoogle.com/codejam/archive/2013) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) ![Progress](https://img.shields.io/badge/progress-1%20%2F%2026-ff69b4.svg)
 
 Python solutions of Google Code Jam 2013. Solution begins with `*` means it will get TLE in the largest data set (total computation amount > `10^8`, which is not friendly for Python to solve in 5 ~ 15 seconds).
 
