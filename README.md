@@ -15,28 +15,53 @@ Python solutions of Google Code Jam 2013. Solution begins with `*` means it will
 ## Qualification Round
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
+|A| [Magic Trick](https://code.google.com/codejam/contest/2270488/dashboard#s=p0)| | | | | | |
+|B| [Lawnmower](https://code.google.com/codejam/contest/2270488/dashboard#s=p1)| | | | | | |
+|C| [Fair and Square](https://code.google.com/codejam/contest/2270488/dashboard#s=p2)| | | | | | |
+|D| [Treasure](https://code.google.com/codejam/contest/2270488/dashboard#s=p3)| | | | | | |
 
 ## Round 1A
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
+|A| [Bullseye](https://code.google.com/codejam/contest/2418487/dashboard#s=p0)| | | | | | |
+|B| [Manage your Energy](https://code.google.com/codejam/contest/2418487/dashboard#s=p1)| | | | | | |
+|C| [Good Luck](https://code.google.com/codejam/contest/2418487/dashboard#s=p2)| | | | | | |
 
 ## Round 1B
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
+|A| [Osmos](https://code.google.com/codejam/contest/2434486/dashboard#s=p0)| | | | | | |
+|B| [Falling Diamonds](https://code.google.com/codejam/contest/2434486/dashboard#s=p1)| | | | | | |
+|C| [Garbled Email](https://code.google.com/codejam/contest/2434486/dashboard#s=p2)| | | | | | |
 
 ## Round 1C
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
+|A| [Consonants](https://code.google.com/codejam/contest/2437488/dashboard#s=p0)| | | | | | |
+|B| [Pogo](https://code.google.com/codejam/contest/2437488/dashboard#s=p1)| | | | | | |
+|C| [The Great Wall](https://code.google.com/codejam/contest/2437488/dashboard#s=p2)| | | | | | |
 
 ## Round 2
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
+|A| [Ticket Swapping](https://code.google.com/codejam/contest/2442487/dashboard#s=p0)| | | | | | |
+|B| [Many Prizes](https://code.google.com/codejam/contest/2442487/dashboard#s=p1)| | | | | | |
+|C| [Erdős–Szekeres](https://code.google.com/codejam/contest/2442487/dashboard#s=p2)| | | | | | |
+|D| [Multiplayer Pong](https://code.google.com/codejam/contest/2442487/dashboard#s=p3)| | | | | | |
 
 ## Round 3
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
+|A| [Cheaters](https://code.google.com/codejam/contest/2433487/dashboard#s=p0)| | | | | | |
+|B| [Rural Planning](https://code.google.com/codejam/contest/2433487/dashboard#s=p1)| | | | | | |
+|C| [Are We Lost Yet?](https://code.google.com/codejam/contest/2433487/dashboard#s=p2)| | | | | | |
+|D| [Observation Wheel](https://code.google.com/codejam/contest/2433487/dashboard#s=p3)| | | | | | |
 
 ## Wolrd Finals
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
+|A| [Graduation Requirements](https://code.google.com/codejam/contest/2437491/dashboard#s=p0)| | | | | | |
+|B| [Cheaters](https://code.google.com/codejam/contest/2437491/dashboard#s=p1)| | | | | | |
+|C| [X Marks the Spot](https://code.google.com/codejam/contest/2437491/dashboard#s=p2)| | | | | | |
+|D| [Can't Stop](https://code.google.com/codejam/contest/2437491/dashboard#s=p3)| | | | | | |
 |E| [Let Me Tell You a Story](https://code.google.com/codejam/contest/2437491/dashboard#s=p4)|||| Very Hard | | |
