@@ -15,7 +15,7 @@ Python solutions of Google Code Jam 2013. Solution begins with `*` means it will
 ## Qualification Round
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|A| [Magic Trick](https://code.google.com/codejam/contest/2270488/dashboard#s=p0)| | | | | | |
+|A| [Tic-Tac-Toe-Tomek](https://code.google.com/codejam/contest/2270488/dashboard#s=p0)| | | | | | |
 |B| [Lawnmower](https://code.google.com/codejam/contest/2270488/dashboard#s=p1)| | | | | | |
 |C| [Fair and Square](https://code.google.com/codejam/contest/2270488/dashboard#s=p2)| | | | | | |
 |D| [Treasure](https://code.google.com/codejam/contest/2270488/dashboard#s=p3)| | | | | | |
