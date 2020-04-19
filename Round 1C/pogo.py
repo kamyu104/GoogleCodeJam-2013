@@ -14,7 +14,7 @@ def pogo():
         N += 1
         total += N
     result = []
-    while N > 0:
+    while N:
         if abs(X) > abs(Y):
             if X > 0: 
                 result.append('E')
