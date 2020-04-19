@@ -1,7 +1,7 @@
 # Copyright (c) 2020 kamyu. All rights reserved.
 #
 # Google Code Jam 2013 Round 1C - Problem B. Pogo
-# https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2/00000000002d5b62
+# https://code.google.com/codejam/contest/2437488/dashboard#s=p1
 #
 # Time:  O(sqrt(X + Y))
 # Space: O(1)
