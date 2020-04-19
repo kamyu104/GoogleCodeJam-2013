@@ -38,7 +38,7 @@ Python solutions of Google Code Jam 2013. Solution begins with `*` means it will
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |A| [Consonants](https://code.google.com/codejam/contest/2437488/dashboard#s=p0)| | | | | | |
-|B| [Pogo](https://code.google.com/codejam/contest/2437488/dashboard#s=p1)| [Python](./Round%201C/pogo.py) | _O(sqrt(X + Y))_ | _O(1)_ | Medium | | Greedy |
+|B| [Pogo](https://code.google.com/codejam/contest/2437488/dashboard#s=p1)| [Python](./Round%201C/pogo.py) | _O(sqrt(\|X\| + \|Y\|))_ | _O(1)_ | Medium | | Greedy |
 |C| [The Great Wall](https://code.google.com/codejam/contest/2437488/dashboard#s=p2)| | | | | | |
 
 ## Round 2
