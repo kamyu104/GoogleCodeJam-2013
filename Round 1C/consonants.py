@@ -10,7 +10,7 @@
 def consonants():
     name, n = raw_input().strip().split()
     L, n = len(name), int(n)
-    result, cnt, left = 0, 0, n-2 # (i-(n-1))+1 = i-left => left = n-2
+    result, cnt, left = 0, 0, n-2  # (i-(n-1))+1 = i-left => left = n-2
     for i, c in enumerate(name):
         cnt = cnt+1 if c not in "aeiou" else 0
         if cnt >= n:
