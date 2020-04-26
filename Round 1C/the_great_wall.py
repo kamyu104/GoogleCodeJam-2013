@@ -14,7 +14,7 @@ from collections import defaultdict
 class SegmentTree(object):
     def __init__(self, N,
                  build_fn=lambda x, y: [y]*(2*x),
-                 query_fn=max,
+                 query_fn=lambda x, y: y if x is None else max(x, y),
                  update_fn=lambda x, y: y if x is None else x+y,
                  default_val=0):
         self.N = N
@@ -63,7 +63,7 @@ class SegmentTree(object):
                     self.lazy[y] = None
                 n //= 2
 
-        result = None  # modified for min-max query
+        result = None
         if L > R:
             return result
 

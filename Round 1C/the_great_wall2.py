@@ -12,7 +12,7 @@
 class SegmentTree(object):
     def __init__(self, N,
                  build_fn=lambda x, y: [y]*(2*x),
-                 query_fn=max,
+                 query_fn=lambda x, y: y if x is None else max(x, y),
                  update_fn=lambda x, y: y if x is None else x+y,
                  default_val=0):
         self.N = N
@@ -61,7 +61,7 @@ class SegmentTree(object):
                     self.lazy[y] = None
                 n //= 2
 
-        result = None  # modified for max-min query
+        result = None
         if L > R:
             return result
 
@@ -101,7 +101,6 @@ def the_great_wall():
             ei += delta_pi
             si += delta_si
     segment_tree = SegmentTree(2*len(x_set),
-                               query_fn=lambda x, y: y if x is None else max(x, y),
                                update_fn=lambda x, y: y if x is None else min(x, y),
                                default_val=float("inf"))
     x_to_idx = {x: 2*i for i, x in enumerate(sorted(x_set))}  # Time: O(AlogA), coordinate compression of x, 2*i is for keeping interval discrete
