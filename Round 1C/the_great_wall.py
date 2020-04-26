@@ -107,11 +107,11 @@ def the_great_wall():
                                update_fn=lambda x, y: y if x is None else max(x, y))
     x_to_idx = {x: 2*i for i, x in enumerate(sorted(x_set))}  # Time: O(AlogA), coordinate compression of x, 2*i is for keeping interval discrete
     result = 0
-    for d in sorted(attacks.iterkeys()):
-        for wi, ei, si in attacks[d]:
+    for di in sorted(attacks.iterkeys()):
+        for wi, ei, si in attacks[di]:
             if si > segment_tree.query(x_to_idx[wi], x_to_idx[ei]):
                 result += 1
-        for wi, ei, si in attacks[d]:
+        for wi, ei, si in attacks[di]:
             segment_tree.update(x_to_idx[wi], x_to_idx[ei], si)
     return result
 
