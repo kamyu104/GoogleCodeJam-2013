@@ -4,7 +4,7 @@
 # https://code.google.com/codejam/contest/2437488/dashboard#s=p2
 #
 # Time:  O(AlogA), A is the number of total attacks
-# Space: O(1)
+# Space: O(A)
 #
 
 from collections import defaultdict
@@ -14,8 +14,8 @@ from collections import defaultdict
 class SegmentTree(object):
     def __init__(self, N,
                  build_fn=lambda x, y: [y]*(2*x),
-                 query_fn=lambda x, y: y if x is None else min(x, y),
-                 update_fn=lambda x, y: y if x is None else max(x, y),
+                 query_fn=max,
+                 update_fn=lambda x, y: y if x is None else x+y,
                  default_val=0):
         self.N = N
         self.H = (N-1).bit_length()
@@ -63,7 +63,7 @@ class SegmentTree(object):
                     self.lazy[y] = None
                 n //= 2
 
-        result = None
+        result = None  # modified for min-max query
         if L > R:
             return result
 
@@ -102,7 +102,10 @@ def the_great_wall():
             wi += delta_pi
             ei += delta_pi
             si += delta_si
-    segment_tree, x_to_idx = SegmentTree(2*len(x_set)), {x: 2*i for i, x in enumerate(sorted(x_set))}  # Time: O(NlogN), coordinate compression of x
+    segment_tree = SegmentTree(2*len(x_set),
+                               query_fn=lambda x, y: y if x is None else min(x, y),
+                               update_fn=lambda x, y: y if x is None else max(x, y))
+    x_to_idx = {x: 2*i for i, x in enumerate(sorted(x_set))}  # Time: O(NlogN), coordinate compression of x
     result = 0
     for d in sorted(attacks.iterkeys()):
         for wi, ei, si in attacks[d]:
