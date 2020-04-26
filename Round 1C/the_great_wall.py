@@ -105,7 +105,7 @@ def the_great_wall():
     segment_tree = SegmentTree(2*len(x_set),
                                query_fn=lambda x, y: y if x is None else min(x, y),
                                update_fn=lambda x, y: y if x is None else max(x, y))
-    x_to_idx = {x: 2*i for i, x in enumerate(sorted(x_set))}  # Time: O(NlogN), coordinate compression of x
+    x_to_idx = {x: 2*i for i, x in enumerate(sorted(x_set))}  # Time: O(AlogA), coordinate compression of x, 2*i is for keeping interval discrete
     result = 0
     for d in sorted(attacks.iterkeys()):
         for wi, ei, si in attacks[d]:
