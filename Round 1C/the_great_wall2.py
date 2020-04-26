@@ -7,8 +7,6 @@
 # Space: O(A)
 #
 
-from collections import defaultdict
-
 # Template:
 # https://github.com/kamyu104/FacebookHackerCup-2018/blob/master/Final%20Round/the_claw.py
 class SegmentTree(object):
