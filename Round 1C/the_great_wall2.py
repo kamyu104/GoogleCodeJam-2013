@@ -106,7 +106,7 @@ def the_great_wall():
                                default_val=float("inf"))
     x_to_idx = {x: 2*i for i, x in enumerate(sorted(x_set))}  # Time: O(AlogA), coordinate compression of x, 2*i is for keeping interval discrete
     result = 0
-    attacks.sort(key=lambda x: (-x[3], x[0]))  # sort si descendingly, di ascending
+    attacks.sort(key=lambda x: (-x[3], x[0]))  # sort si descendingly, di ascendingly
     for di, wi, ei, si in attacks:
         if di <= segment_tree.query(x_to_idx[wi], x_to_idx[ei]):
             result += 1
