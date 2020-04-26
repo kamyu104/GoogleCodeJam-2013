@@ -100,11 +100,11 @@ def the_great_wall():
             wi += delta_pi
             ei += delta_pi
             si += delta_si
+    attacks.sort(key=lambda x: (-x[3], x[0]))  # sort si descendingly, di ascendingly
     segment_tree = SegmentTree(2*len(x_set),
                                update_fn=lambda x, y: y if x is None else min(x, y),
                                default_val=float("inf"))
     x_to_idx = {x: 2*i for i, x in enumerate(sorted(x_set))}  # Time: O(AlogA), coordinate compression of x, 2*i is for keeping interval discrete
-    attacks.sort(key=lambda x: (-x[3], x[0]))  # sort si descendingly, di ascendingly
     result = 0
     for di, wi, ei, si in attacks:
         if di <= segment_tree.query(x_to_idx[wi], x_to_idx[ei]):
