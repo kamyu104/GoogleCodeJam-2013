@@ -93,7 +93,7 @@ def the_great_wall():
     for _ in xrange(N):
         di, ni, wi, ei, si, delta_di, delta_pi, delta_si = map(int, raw_input().strip().split())
         for _ in xrange(ni):
-            attacks.append([di, wi, ei, si])
+            attacks.append((di, wi, ei, si))
             x_set.add(wi)
             x_set.add(ei)
             di += delta_di
