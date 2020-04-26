@@ -37,6 +37,7 @@ class SegmentTree(object):
                 self.tree[x] = self.query_fn(self.tree[x*2], self.tree[x*2+1])
                 if self.lazy[x] is not None:
                     self.tree[x] = self.update_fn(self.tree[x], self.lazy[x])
+
         L += self.N
         R += self.N
         L0, R0 = L, R
