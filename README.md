@@ -39,7 +39,7 @@ Python solutions of Google Code Jam 2013. Solution begins with `*` means it will
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |A| [Consonants](https://code.google.com/codejam/contest/2437488/dashboard#s=p0)| [Python](./Round%201C/consonants.py) | _O(L)_ | _O(1)_ | Easy | | Math |
 |B| [Pogo](https://code.google.com/codejam/contest/2437488/dashboard#s=p1)| [Python](./Round%201C/pogo.py) | _O(sqrt(\|X\| + \|Y\|))_ | _O(1)_ | Medium | | Greedy |
-|C| [The Great Wall](https://code.google.com/codejam/contest/2437488/dashboard#s=p2)| [PyPy](./Round%201C/the_great_wall.py) | _O(AlogA))_ | _O(A)_ | Medium | | Segment Tree |
+|C| [The Great Wall](https://code.google.com/codejam/contest/2437488/dashboard#s=p2)| [PyPy](./Round%201C/the_great_wall.py) | _O(AlogA))_ | _O(A)_ | Medium | | Coordinate Compression, Segment Tree |
 
 ## Round 2
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
