@@ -7,11 +7,11 @@
 # Space: O(1)
 #
 
-def binomial(n, k):
-    if n-k < k:
-        return binomial(n, n-k)
+def nCr(n, r):
+    if n-r < r:
+        return nCr(n, n-r)
     c = 1
-    for k in xrange(1, k+1):
+    for k in xrange(1, r+1):
         c *= n-k+1
         c //= k
     return c
@@ -28,7 +28,7 @@ def falling_diamonds():
         return 0.0
     if N >= 2*D+Y+1:
         return 1.0
-    result = c = binomial(N, Y+1)
+    result = c = nCr(N, Y+1)
     for k in xrange((Y+1)+1, N+1):
         c *= N-k+1
         c //= k
