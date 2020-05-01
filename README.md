@@ -31,7 +31,7 @@ Python solutions of Google Code Jam 2013. Solution begins with `*` means it will
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |A| [Osmos](https://code.google.com/codejam/contest/2434486/dashboard#s=p0)| [Python](./Round%201B/osmos.py) | _O(NlogN)_ | _O(1)_ | Easy | | Greedy |
-|B| [Falling Diamonds](https://code.google.com/codejam/contest/2434486/dashboard#s=p1)| [Python](./Round%201B/falling_diamonds.py) | _O(N)_ | _O(1)_ | Medium | | Math, Binomial Coefficients |
+|B| [Falling Diamonds](https://code.google.com/codejam/contest/2434486/dashboard#s=p1)| [Python](./Round%201B/falling_diamonds.py) | _O(N)_ | _O(1)_ | Medium | | Probability, Binomial Coefficients |
 |C| [Garbled Email](https://code.google.com/codejam/contest/2434486/dashboard#s=p2)| | | | | | |
 
 ## Round 1C
