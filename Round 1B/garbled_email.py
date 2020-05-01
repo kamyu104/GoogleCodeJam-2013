@@ -20,22 +20,20 @@ def garbled_email():
                 word = S[i:i+l]
                 # no change
                 if word in LOOKUP:
-                    prev = max(-(len(word)-j), -D)  # merge states
+                    prev = max(j-len(word), -D)  # merge states
                     dp[i+l][prev] = min(dp[i+l][prev], dp[i][j])
                 # one change
                 for k in xrange(j+D, len(word)):
-                    changed_word = word[:k]+'*'+word[k+1:]
-                    if changed_word not in LOOKUP:
+                    if word[:k]+'*'+word[k+1:] not in LOOKUP:
                         continue
-                    prev = max(-(len(changed_word)-k), -D)  # merge states
+                    prev = max(k-len(word), -D)  # merge states
                     dp[i+l][prev] = min(dp[i+l][prev], dp[i][j]+1)
                 # two changes
                 for k in xrange(j+D, len(word)):
                     for m in xrange(k+D, len(word)):
-                        changed_word = word[:k]+'*'+word[k+1:m]+'*'+word[m+1:]
-                        if changed_word not in LOOKUP:
+                        if word[:k]+'*'+word[k+1:m]+'*'+word[m+1:] not in LOOKUP:
                             continue
-                        prev = max(-(len(changed_word)-m), -D)  # merge states
+                        prev = max(m-len(word), -D)  # merge states
                         dp[i+l][prev] = min(dp[i+l][prev], dp[i][j]+2)
     return min(dp[-1])
 
@@ -44,16 +42,12 @@ LOOKUP = set()
 with open("garbled_email_dictionary.txt") as f:
     for line in f:
         word = line.strip()
-        LOOKUP.add(word)
         L = max(L, len(word))
+        LOOKUP.add(word)
         for j in xrange(len(word)):
-            changed_word = word[:j]+'*'+word[j+1:]
-            LOOKUP.add(changed_word)
-        if len(word) <= D:
-            continue
+            LOOKUP.add(word[:j]+'*'+word[j+1:])
         for j in xrange(len(word)-D):
             for k in xrange(j+D, len(word)):
-                changed_word = word[:j]+'*'+word[j+1:k]+'*'+word[k+1:]
-                LOOKUP.add(changed_word)
+                LOOKUP.add(word[:j]+'*'+word[j+1:k]+'*'+word[k+1:])
 for case in xrange(input()):
     print 'Case #%d: %s' % (case+1, garbled_email())
