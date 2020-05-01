@@ -30,7 +30,7 @@ Python solutions of Google Code Jam 2013. Solution begins with `*` means it will
 ## Round 1B
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|A| [Osmos](https://code.google.com/codejam/contest/2434486/dashboard#s=p0)| [Python](./Round%201C/consonants.py) | _O(NlogN)_ | _O(1)_ | Easy | | Greedy |
+|A| [Osmos](https://code.google.com/codejam/contest/2434486/dashboard#s=p0)| [Python](./Round%201B/osmos.py) | _O(NlogN)_ | _O(1)_ | Easy | | Greedy |
 |B| [Falling Diamonds](https://code.google.com/codejam/contest/2434486/dashboard#s=p1)| | | | | | |
 |C| [Garbled Email](https://code.google.com/codejam/contest/2434486/dashboard#s=p2)| | | | | | |
 
