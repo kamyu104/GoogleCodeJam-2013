@@ -29,8 +29,7 @@ def falling_diamonds():
         return 0.0
     if N >= 2*D+Y+1:
         return 1.0
-    c = binomial(N, Y+1)
-    result = c
+    result = c = binomial(N, Y+1)
     for k in xrange((Y+1)+1, N+1):
         c *= N-k+1
         c //= k
