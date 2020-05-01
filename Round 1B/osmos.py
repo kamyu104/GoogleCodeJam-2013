@@ -17,7 +17,7 @@ def osmos():
                 curr += mote
                 break
             curr += curr-1
-            result += 1  # at most N
+            result += 1  # at most N times
         else:
             break
     return result        
