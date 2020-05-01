@@ -1,6 +1,6 @@
 # Copyright (c) 2020 kamyu. All rights reserved.
 #
-# Google Code Jam 2013 Round 1B - Problem B. Falling Dianmonds
+# Google Code Jam 2013 Round 1B - Problem B. Falling Diamonds
 # https://code.google.com/codejam/contest/2434486/dashboard#s=p1
 #
 # Time:  O(N)
