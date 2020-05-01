@@ -32,7 +32,7 @@ Python solutions of Google Code Jam 2013. Solution begins with `*` means it will
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |A| [Osmos](https://code.google.com/codejam/contest/2434486/dashboard#s=p0)| [Python](./Round%201B/osmos.py) | _O(NlogN)_ | _O(1)_ | Easy | | Greedy |
 |B| [Falling Diamonds](https://code.google.com/codejam/contest/2434486/dashboard#s=p1)| [Python](./Round%201B/falling_diamonds.py) | _O(N)_ | _O(1)_ | Medium | | Probability, Binomial Coefficients |
-|C| [Garbled Email](https://code.google.com/codejam/contest/2434486/dashboard#s=p2)| [Python](./Round%201B/garbled_email.py) | hash: _O(N * L^3)_<br>dp: _O(S * D * L^3)_ | hash: _O(N * L^3)_<br>dp: _O(S * D)_ | Hard | | Hash Table, DP |
+|C| [Garbled Email](https://code.google.com/codejam/contest/2434486/dashboard#s=p2)| [Python](./Round%201B/garbled_email.py) | hash: _O(N * L^3)_<br>dp: _O(S * D * L^4)_ | hash: _O(N * L^3)_<br>dp: _O(S * D)_ | Hard | | Hash Table, DP |
 
 ## Round 1C
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |

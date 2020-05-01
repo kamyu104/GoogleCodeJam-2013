@@ -5,7 +5,7 @@
 #
 # Time:  hash: O(N * L^3), N is the number of words
 #                        , L is the max length of words
-#        dp:   O(S * D * L^3)
+#        dp:   O(S * D * L^4)
 # Space: hash: O(N * L^3)
 #        dp:   O(S * D)
 #
