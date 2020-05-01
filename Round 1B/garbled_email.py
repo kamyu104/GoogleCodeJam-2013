@@ -1,6 +1,6 @@
 # Copyright (c) 2020 kamyu. All rights reserved.
 #
-# Google Code Jam 2013 Round 1B-Problem C. Garbled Email
+# Google Code Jam 2013 Round 1B - Problem C. Garbled Email
 # https://code.google.com/codejam/contest/2434486/dashboard#s=p2
 #
 # Time:  hash: O(N * L^3), N is the number of words
