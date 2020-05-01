@@ -1,4 +1,4 @@
-# [GoogleCodeJam 2013](https://codingcompetitions.withgoogle.com/codejam/archive/2013) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) ![Progress](https://img.shields.io/badge/progress-5%20%2F%2026-ff69b4.svg)
+# [GoogleCodeJam 2013](https://codingcompetitions.withgoogle.com/codejam/archive/2013) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) ![Progress](https://img.shields.io/badge/progress-6%20%2F%2026-ff69b4.svg)
 
 Python solutions of Google Code Jam 2013. Solution begins with `*` means it will get TLE in the largest data set (total computation amount > `10^8`, which is not friendly for Python to solve in 5 ~ 15 seconds). A `4-minute` timer is set for the small dataset and a `8-minute` timer is set for the large dataset this year.
 
@@ -32,7 +32,7 @@ Python solutions of Google Code Jam 2013. Solution begins with `*` means it will
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |A| [Osmos](https://code.google.com/codejam/contest/2434486/dashboard#s=p0)| [Python](./Round%201B/osmos.py) | _O(NlogN)_ | _O(1)_ | Easy | | Greedy |
 |B| [Falling Diamonds](https://code.google.com/codejam/contest/2434486/dashboard#s=p1)| [Python](./Round%201B/falling_diamonds.py) | _O(N)_ | _O(1)_ | Medium | | Probability, Binomial Coefficients |
-|C| [Garbled Email](https://code.google.com/codejam/contest/2434486/dashboard#s=p2)| | | | | | |
+|C| [Garbled Email](https://code.google.com/codejam/contest/2434486/dashboard#s=p2)| [Python](./Round%201B/garbled_email.py) | hash: _O(N * L^3)_<br>dp: _O(S * D * L^3)_ | hash: _O(N * L^3)_<br>dp: _O(S * D)_ | Hard | | Hash Table, DP |
 
 ## Round 1C
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |

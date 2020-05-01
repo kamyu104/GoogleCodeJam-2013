@@ -3,11 +3,11 @@
 # Google Code Jam 2013 Round 1B-Problem C. Garbled Email
 # https://code.google.com/codejam/contest/2434486/dashboard#s=p2
 #
-# Time:  O(S * D * L^3)
-#        ctor: O(N * L^3), N is the number of words
+# Time:  hash: O(N * L^3), N is the number of words
 #                        , L is the max length of words
-# Space: O(S * D)
-#        ctor: O(N * L^3)
+#        dp:   O(S * D * L^3)
+# Space: hash: O(N * L^3)
+#        dp:   O(S * D)
 #
 
 def garbled_email():
