@@ -18,8 +18,7 @@ def binomial(n, k):
 
 def falling_diamonds():
     N, X, Y = map(int, raw_input().strip().split())
-    X = abs(X)
-    D = (X+Y)//2
+    D = (abs(X)+Y)//2
     if X == 0:
         if N < ((4*D+1)+1)*(D+1)//2:
             return 0.0
