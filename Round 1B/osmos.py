@@ -11,7 +11,7 @@ def osmos():
     curr, N = map(int, raw_input().strip().split())
     motes = sorted(map(int, raw_input().strip().split()))
     result = 0
-    for i, mote in enumerate(motes):  # Time:  O(N)
+    for i, mote in enumerate(motes):  # Time: O(N)
         for _ in xrange(N - max(i, result)):
             if curr > mote:
                 curr += mote
