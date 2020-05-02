@@ -28,7 +28,7 @@ def garbled_email():
                         continue
                     prev = max(k-l, -D)  # merge states
                     dp[i+l][prev] = min(dp[i+l][prev], dp[i][j]+1)
-                # two changes (since D = 5, and L = 10 in this dictionary, there is at most 2 changes)
+                # two changes (since D = 5, and L = 10 in the given dictionary, there is at most 2 changes)
                 for k in xrange(j+D, l):
                     for m in xrange(k+D, l):
                         if word[:k]+'*'+word[k+1:m]+'*'+word[m+1:] not in LOOKUP:
